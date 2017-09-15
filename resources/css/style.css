@@ -191,14 +191,42 @@ transform: scale(1.03);
 opacity:1;
 }
 
-transition: background-color 0.2s, border 0.2s, color 0.2s;
 
+
+/*------------ CITIES SECTION ---------------*/
+
+
+.box img {
+
+width:110%;
+height:auto;
+margin-right:auto;
+margin-top: 30px;
+
+}
+.city-feature {
+
+margin-bottom: 5%;
+
+}
+.icon-small {
+  display: inline-block;
+  width:30px;
+  text-align:center;
+  color:#e67e22;
+  font-size: 120%;
+
+  /*secret ways to align tet and icon*/
+  line-height: 120%;
+  vertical-align: middle;
+  margin-top:-5px;
+  margin-right:10px;
+}
 
 /*------------------ HOW IT WORKS -----------------*/
 
-.section-steps {
-
-  background-color:#fff;
+.section-steps{
+  background-color:#f4f4f4;
 }
 
 .steps-box{
@@ -248,6 +276,12 @@ margin-right:20px;
 .works-steps:last-of-type {
   margin-bottom: 85px;
 }
+
+
+
+
+
+
 
 
 /*------------------HEADINGS-----------------*/
