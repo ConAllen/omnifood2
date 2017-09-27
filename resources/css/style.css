@@ -168,6 +168,8 @@ margin-bottom: 10px;
 }
 
 
+
+
 /*------------------ MEALS-SHOWCASE -----------------*/
 
 .meals{
@@ -332,13 +334,51 @@ margin-right:20px;
 }
 
 .plan-price {
-font-size: 300%;
+font-size: 200%;
 margin-bottom:10px;
+font-weight: 100;
+color:#e67e22;
 
 }
 
+.plan-price span{
+font-size: 50%;
+font-weight:300;
 
+}
 
+.plan-box{
+
+  box-shadow: 2px 2px 5px #888888;
+}
+.plan-box ul {
+list-style: none;
+line-height:35px;
+
+}
+
+.plan-box ul li {
+padding: 5px 0;
+line-height:35px;
+
+}
+
+.plan-price-meal{
+
+  font-size: 80%;
+}
+
+.plan-box div:first-child{
+  text-align: center;
+  background-color: #fffdfc;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.plan-box div:last-child{
+  text-align: center;
+  border: 0;
+}
 
 /*------------------HEADINGS-----------------*/
 h1,
@@ -442,7 +482,7 @@ blockquote cite img {
 
 header {
 
-background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(img/Hero1.jpg);
 background-size: cover;
 background-position: center;
 height:100vh;
