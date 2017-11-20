@@ -1,4 +1,4 @@
-/*
+ /*
 /*
 orange color:  #e67e22
 */
@@ -373,7 +373,7 @@ font-weight:300;
 
 .plan-box:active{
 
-  
+
 }
 
 .plan-box:hover{
@@ -562,13 +562,32 @@ background-attachment: fixed;
           transform: translate(-50%,-50%);
 }
 
-.logo {
+.logo{
 
 height:100px;
 width:auto;
 float:left;
 margin-top: 25px;
 
+}
+
+.logo-black {
+display:none;
+height:50px;
+width:auto;
+float:left;
+margin-top: 5px;
+margin-bottom:5px;
+
+}
+
+.logo-black { display: none;}
+
+.sticky .logo-black {
+  display:block;
+}
+.sticky .logo {
+  display:none;
 }
 
 .main-nav {
@@ -587,7 +606,7 @@ margin-left: 40px;
 }
 
 .main-nav li a:link,
-.main-nav li a:visited{
+.main-nav li a:visited {
   padding: 8px 0;
   color: #fff;
   text-decoration: none;
@@ -599,9 +618,45 @@ margin-left: 40px;
 
 }
 
+.main-nav li a:link,
+.main-nav li a:visited{
+  padding: 20px 0;
+
+
+
+}
+
 .main-nav li a:hover,
 .main-nav li a:active{
   border-bottom: 2px solid #e67e22;
+}
+
+/* Sticky Nav*/
+
+.sticky{
+
+position: fixed;
+top:0;
+left:0;
+width: 100%;
+background-color:rgba(255, 255, 255,0.98);
+box-shadow: 2px 2px 5px #555;
+
+/*the z index brings it to the top*/
+z-index:9999;
+}
+
+
+ .main-nav li a:link,
+.sticky .main-nav li a:visited {
+  padding: 8px 0;
+  color: #555;
+
+}
+
+.sticky .main-nav {
+  margin-top:15px;
+
 }
 
 
