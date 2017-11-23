@@ -105,6 +105,23 @@ $('.js--nav-icon').click(function () {
 
 });
 
+/*  map */
+
+var map = new GMaps({
+  div: '.map',
+  lat: 53.3489246,
+  lng: -6.1823681,
+  zoom: 13
+});
+
+map.addMarker({
+  lat: 53.344265,
+  lng: -6.261630,
+  title: 'Dub',
+  infoWindow: {
+  content: '<p>Our Dublin HQ</p>'
+}
+});
 
 
 });
