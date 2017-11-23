@@ -72,10 +72,10 @@ line-height:145%;
 
 a,
 a:visited{
-  color:#e67e22;
+  color:#3498db;
   text-decoration: none;
   padding-bottom: 5px;
-  border-bottom: 1px solid #e67e22;
+  border-bottom: 1px solid #3498db;
   -webkit-transition: border-bottom 0.2s, color 0.2s;
   transition: border-bottom 0.2s, color 0.2s;
 }
@@ -116,7 +116,7 @@ margin-left:15%;
 /*--------------BUTTONS------------------*/
 
 .btn-ghost {
-  border:1px solid  #e67e22;
+  border:1px solid  #3498db;
 }
 
 .btn:link,
@@ -138,17 +138,16 @@ input[type=submit]
 .btn-full:link,
 .btn-full:visited,
 input[type=submit] {
-background-color: #e67e22;
-border: 1px solid #e67e22;
+background-color: #3498db;
+border: 1px solid #3498db;
 color: white;
 margin: right;
 }
-
 .btn-ghost:link,
 .btn-ghost:visited,
 {
-  border: 1px solid #e67e22;
-  color: #e67e22;
+  border: 1px solid #3498db;
+  color: #3498db;
 
 }
 
@@ -156,7 +155,7 @@ margin: right;
 .btn:active,
 input[type=submit]:hover,
 input[type=submit]:active  {
-  background-color: #bf6516;
+  background-color: #3498db;
   color:#fff;
 
 }
@@ -164,13 +163,13 @@ input[type=submit]:active  {
 .btn-full:hover,
 .btn-full:active {
 
-border: 1px solid #e67e22;
+border: 1px solid #3498db;
 
 }
 
 .btn-ghost:hover,
 .btn-ghost:active {
-  border: 1px solid #e67e22;
+  border: 1px solid #3498db;
   color: #fff;
 }
 
@@ -179,7 +178,7 @@ border: 1px solid #e67e22;
 
 font-size: 350%;
 display:block;
-color:#e67e22;
+color:#3498db;
 
 margin-bottom: 10px;
 
@@ -265,7 +264,7 @@ margin-bottom: 5%;
   display: inline-block;
   width:30px;
   text-align:center;
-  color:#e67e22;
+  color:#3498db;
   font-size: 120%;
 
   /*secret ways to align tet and icon*/
@@ -307,8 +306,8 @@ margin-top: 30px;
   margin-bottom: 50px
 }
 .works-steps div {
-color: #e67e22;
-border: 2px solid #e67e22;
+color: #3498db;
+border: 2px solid #3498db;
 display: inline-block;
 border-radius:50%;
 height: 50px;
@@ -361,7 +360,7 @@ margin-right:20px;
 font-size: 250%;
 margin-bottom:10px;
 font-weight:100;
-color:#e67e22;
+color:#3498db;
 
 }
 
@@ -444,7 +443,7 @@ h3 {
 h2:after {
     display: block;
     height: 2px;
-    background-color: #e67e22;
+    background-color: #3498db;
     content: " ";
     width: 100px;
     margin: 0 auto;
@@ -655,7 +654,7 @@ margin-left: 40px;
 
 .main-nav li a:hover,
 .main-nav li a:active{
-  border-bottom: 2px solid #e67e22;
+  border-bottom: 2px solid #3498db;
 }
 
 /* Sticky Nav*/
